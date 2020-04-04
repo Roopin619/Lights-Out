@@ -84,3 +84,12 @@ table tr:last-child td:last-child {
     color: #146C80;
   }
 }
+
+@media only screen and (max-width: 750px) {
+  .neon-orange, .neon-blue {
+    font-size: 3.5rem;
+  }
+  .winner .neon-blue, .winner .neon-orange {
+    font-size: 4rem;
+  }
+}
